@@ -29,7 +29,7 @@ class Library:
     def _find_user(self, user_id):
         for u in self.users:
             if u.user_id == user_id:
-                print("User not found")
+                print(f"User not found")
                 return u
         raise ValueError("User not found")
 
