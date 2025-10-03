@@ -4,7 +4,7 @@ class Book:
         self.author = author
         self.year = year
         self.isbn = isbn
-        self.borrowed = True
+        self.borrowed = False
 
     def borrow(self):
         if self.borrowed:
